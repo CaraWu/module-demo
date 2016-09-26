@@ -10,6 +10,5 @@ function add (teacherName, students) {
   })
 // student.add('students')
 }
-
 exports.add = add
-module.exports = add
+// module.exports = add
