@@ -1,4 +1,4 @@
-function add (teacher) {
+function add_teacher (teacher) {
   console.log('Add Teacher:' + teacher)
 }
-exports.add = add
+exports.add_teacher = add_teacher

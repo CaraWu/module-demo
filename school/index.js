@@ -1,11 +1,11 @@
 var group = require('./group')
 
-group.add('cara',[1,2])
-exports.add = function (groups) {
+// group.add_group('cara', ['kyo', 'kyo'])
+exports.add_groups = function (add_groups) {
   groups.forEach(function (item, index) {
     var group = item
     var teacherName = item.teacherName
     var students = item.students
   })
-  group.add('teacherName', ['kyo', 'kyo'])
+  group.add_groups('teacherName', ['kyo', 'kyo'])
 }
